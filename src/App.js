@@ -1,14 +1,21 @@
 import logo from "./shecodes-logo.png";
 import "./App.css";
+import Dictionary from "./Dictionary.js";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
-      <img src={logo} className="App-logo img-fluid" alt="logo"></img>
-      Hello
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} className="App-logo img-fluid" alt="logo"></img>
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="text-center">
+          Coded by LL for a SheCodes project
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
