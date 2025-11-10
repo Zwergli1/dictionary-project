@@ -3,3 +3,15 @@
   font-weight: bold;
   line-height: 1.5;
 }
+
+.Results .phonetic {
+  color: #3e3e3e;
+}
+
+.Results .phonetic p:hover {
+  color: #f1eadd;
+  background-color: #3e3e3e;
+  border-radius: 6px;
+  width: 25%;
+  padding: 10px;
+}
