@@ -12,8 +12,8 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">
-          Coded by LL for a SheCodes project
+        <footer className="App-footer">
+          <small>Coded by LL for a SheCodes project </small>
         </footer>
       </div>
     </div>
