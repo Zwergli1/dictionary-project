@@ -14,7 +14,7 @@ export default function Photos(props) {
                   <img
                     src={photo.src.tiny}
                     className="img-fluid"
-                    alt-text={photo.alt}
+                    alt={photo.alt}
                   />
                 </a>
               </div>
